@@ -1,0 +1,19 @@
+Approach used in code 
+
+1)Write a function to take pokemon’s name as argument and display the
+information of that pokemon
+
+
+I looped through the dataset using for in loop and using an if condition checked if the name entered by user matches name in dataset. If match is found the details of the pokemon name was displayed using stringify function
+
+2)Write a function that takes pokemon’s name as an argument and find out
+which all pokemon have that name in their “next_evolution” field
+
+
+To acheive this I looped through the dataset using for in loop. Created an inner loop for next_evolution field.
+then checked if the name in the next_evolution matches that with the name entered.If match is found the pokemon nam e will be displayed else an alert will be displayed. 
+
+3)Write a function that take a “Weakness” as an input and gives the names
+of all pokemon who have that Weakness. (check the weakness array in
+the dataset)
+To acheive this I looped through the dataset using for in loop. Created an inner loop for weaknes and checked if weakness entered and weakness in the current loop matches. If match was found the pokemon name was displayed.

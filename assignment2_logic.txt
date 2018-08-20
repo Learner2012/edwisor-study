@@ -1,0 +1,22 @@
+Approach used in code 
+
+1)Write a function to take episode number and season number as argument and display the
+information of that episode
+
+
+I looped through the dataset using for in loop and using an if condition checked if the episode number and season number entered by user matches number in dataset. If match is found the details of the episode was displayed using stringify function
+
+2)Write a function that takes any number of IDs as an argument and returns
+all the information about those episodes
+
+
+To acheive this first user was asked to enter multiple ids as input using comma . using split method the entered string is split at comma and changed to array.Used spread parameter to change array to csv format .
+
+In function used rest parameter to get multiple ids in array.Used a for of loop to loop through the Ids entered by user and then another for of loop as a subloop to loop through dataset. If a matching id was found between dataset and user entered ids using stringify the information about episode was displayed. 
+
+Created an empty array and pushed all the ids that was not found in the dataset and displayed at the end..
+
+
+3)Write a function that take a name as an input 
+
+I looped through the dataset using for of loop and using an if condition checked if the name entered by user matches name in dataset. If match is found the details of the episode was displayed using stringify function

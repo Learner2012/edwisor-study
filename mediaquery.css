@@ -1,0 +1,66 @@
+:root {
+	font-size :25px
+}
+
+boby{
+	margin :0;
+	padding:0;
+	background-color : blue
+}
+.container-font{
+	text-align :center;
+	padding-top :10%;
+	padding-bottom :10%;
+	color : white
+}
+
+.container {
+	margin :5vw
+}
+
+.container-item{
+	background-color : #d130bb
+}
+
+@media screen and (min-width : 768px)
+{
+		.container-item{
+			height :30vw;
+			background-color : #6de079
+		}
+
+		.container-font{
+			font-size : 2rem;
+			color :white
+			
+		}
+		}
+		
+@media screen and (min-width :480px) and (max-width :767px)
+{
+	.container-item{
+			height :50vw;
+			background-color : #a39820
+		}
+
+		.container-font{
+			font-size : 1.5rem;
+			color :white
+			
+		}
+		}
+		
+@media screen and (max-width :480px)
+{
+	.container-item{
+			height :120vw;
+			background-color : #b75d6e
+		}
+
+		.container-font{
+			font-size : 1rem;
+			color :white
+			
+		}
+		}
+}

@@ -1,0 +1,26 @@
+body
+{
+	background-color : skyblue;
+	font-style :italic;
+	font-family :'Lato';
+	font-size :20px;
+	
+}
+h1{
+	color :green;
+	font-size :100px;
+	
+}
+
+.mystyle 
+{
+	
+	color: black;
+	font-size : 24px;
+	font-weight :bold;
+	
+}
+p{
+	color :red;
+	font-weight :bold;
+}

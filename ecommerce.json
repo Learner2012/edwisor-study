@@ -1,0 +1,79 @@
+ {"dataStore":
+	[
+		{
+						"department": "Electronics",
+						"departmentId": 10001,
+						"products":
+						[
+							{
+								"productName": "Laptop",
+								"productId"  : 100011,
+								"specification":
+								[
+									{
+										"productBrand": "Sony",
+										"productPrice": 100000,
+										"size"		  : "14 inches",
+										"freeDelivery": "Yes"
+									},
+									{
+										"productBrand": "Dell",
+										"productPrice": 35000,
+										"size"		  : "15.6 inches",
+										"freeDelivery": "Yes"
+									}
+								]
+							}
+							,
+							{
+							"productName" :"Televisions",
+							 "productId"  : 100012,
+								"specification":
+								[
+									{
+										"productBrand": "Samsung",
+										"productPrice":  21990.00,
+										"size"		  : "32 inches",
+										"warranty"	  : "1 year",
+										"freeDelivery": "Yes"
+									}
+									,
+									{
+										"productBrand": "LG",
+										"productPrice":  22999.00 ,
+										"size"		  : "32 inches",
+										"warranty"    :"2 years",
+										"freeDelivery": "Yes"
+									}
+								]
+							}
+						]
+		}
+		,
+		{
+					"department": "Books",
+						"departmentId": 20001,
+						"products":
+						[
+							{
+								"productName": "Fiction",
+								"productId"  : 200011,
+								"specification":
+								[
+									{
+										"Title"		:"Three Thousand Stitches: Ordinary People, Extraordinary Lives",
+										"Author" 	: "Sudha Murty",
+										"Price"		: 150										
+									},
+									{
+										
+										"Title"		:"Charulatha ",
+										"Author" 	: "Raveendra Natha Tagore ",
+										"Price"		: 250	
+									}
+								]
+							}
+						]
+		}
+	]
+}
